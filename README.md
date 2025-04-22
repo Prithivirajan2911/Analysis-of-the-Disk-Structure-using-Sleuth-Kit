@@ -37,12 +37,12 @@ mkfs.vfat file.dd
 
 ### mmls 
 ```bash
-mmls disk.dd
+mmls file.dd
 ```
 
 ### fls
 ```bash
-fls -f fat -o 0 disk.dd
+fls -f fat -o 0 file.dd
 ```
 
 ![output](./img3.png)
